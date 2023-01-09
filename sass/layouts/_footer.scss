@@ -26,20 +26,24 @@
 }
 
 
-.footer-nav__adress {
-    color: #ffffff;
+.footer-nav__adress,
+.footer-nav__contact{
     text-decoration: none;
     font-style: normal;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+        }
 }
 
-.footer-nav__contact {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    font-style: normal;
+.footer-nav__adress{
+color: #ffffff;
+}
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.footer-nav__contact{
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-form{

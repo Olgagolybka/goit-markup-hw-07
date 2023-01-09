@@ -1,3 +1,17 @@
+.option-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.option-list__item {
+    margin-right: 8px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
 .portfoliolist {
     display: flex;
     flex-wrap: wrap;
